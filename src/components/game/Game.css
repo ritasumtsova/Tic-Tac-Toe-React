@@ -1,0 +1,28 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-btn {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    background-color: crimson;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+}
+
+.game-text {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+}

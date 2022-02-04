@@ -1,0 +1,22 @@
+.cell {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background: crimson;
+    transition: 0.4 all ease;
+}
+
+button[disabled] {
+    background-color: darkgrey;
+    color: #000;
+}
